@@ -50,11 +50,6 @@ inline void consoleLog(bool ans) {cout<<(ans ? "YES\n" : "NO\n");}
 inline int get(pbds &s,int ind) {return *s.find_by_order(ind);}
 inline int lb(pbds &s,int val) {return s.order_of_key(val);}
 
-/**
- * 
- * Actual code starts here.
- * 
- * */
 
 void solve() {
     
